@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>teacher</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body{
+    background-color:#5286F3;
+    font-size:14px;
+    color:#fff;
+}
+.simple-login-container{
+    width:300px;
+    max-width:100%;
+    margin:50px auto;
+}
+.simple-login-container h2{
+    text-align:center;
+    font-size:20px;
+}
+
+.simple-login-container .btn-login{
+    background-color:#FF5964;
+    color:#fff;
+}
+a{
+    color:#fff;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+        <div class="container">
+                <div class="jumbotron bg-dark mt-5">
+                  <div class="display-3 text-light text-center">
+                    Welcome to the Grade Management System
+                  </div>
+                  <div class="h3 text-light text-center mt-3">
+                    Enter the details of the marks and attendance scored by the students throughtout the year
+                  </div>
+                  <div class="text-center mt-5">
+                      <a href="./newparent.html" class="btn btn-success btn-lg">Check Grades</a>
+                  </div>
+            </div>
+<div class="simple-login-container mb-3">
+    <h2>Enter the details of the student</h2>
+    <div class="row">
+        <div class="col-md-12 form-group mt-5">
+            <input type="text" class="form-control" placeholder="Name of the student" id="name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <input type="number" placeholder="Roll No." class="form-control" id="rollNo">
+        </div>
+    
+          <div class="col-md-12 form-group">
+              <input type="number" placeholder="English marks" class="form-control" id="englishMarks">
+          
+          </div>
+          
+            <div class="col-md-12 form-group">
+                <input type="number" placeholder="Maths Marks" class="form-control" id="mathsMarks">
+          </div>
+
+              <div class="col-md-12 form-group">
+                  <input type="number" placeholder="Science Marks" class="form-control" id="scienceMarks">
+              </div>
+
+                <div class="col-md-12 form-group">
+                    <input type="number" placeholder="Attendance" class="form-control" id="attendance">
+                </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group" id="saveButton">
+            <a class="btn btn-block btn-login" href="index.html">save details</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group" id="saveButton">
+            <!-- <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" > -->
+            <a href="index.html" class="btn btn-block btn-login">Go Back</a>
+        </div>
+    </div>
+</div>
+<script src="./teacher.js" type="text/javascript">
+
+</script>
+</body>
+</html>
